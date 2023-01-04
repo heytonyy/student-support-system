@@ -1,0 +1,64 @@
+/* Global scope */
+
+:root {
+  /* Change primary color from blue to indigo */
+
+  --primary-color: var(--indigo-color);
+  --primary-color-light: var(--indigo-color-light);
+  --primary-color-very-light: var(--indigo-color-very-light);
+  --primary-color-dark: var(--indigo-color-dark);
+  --primary-color-very-dark: var(--indigo-color-very-dark);
+  --primary-box-shadow-color: var(--indigo-box-shadow-color);
+  --primary-box-shadow-color-darker: var(--indigo-box-shadow-color-darker);
+  --text-color-on-primary-color-bg: var(--text-color-on-indigo-color-bg);
+  
+  /* Card */
+
+  --card-border-radius: 1.2rem;
+
+  /* Card (light mode only) */
+
+  --lm-card-bg-image: linear-gradient(#f7f7f7, #ced6e0);
+  --lm-card-border-color: #ffffff;
+  --lm-card-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+
+  /* Card (dark mode only) */
+
+  --dm-card-bg-image: linear-gradient(#191c20, #111417);
+  --dm-card-border-color: rgba(255, 255, 255, 0.1);
+  --dm-card-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+
+  /* Input (light mode only) */
+
+  --lm-input-box-shadow: 0 0.2rem 0 rgba(0, 0, 0, 0.05);
+
+  /* Input (dark mode only) */
+
+  --dm-input-box-shadow: var(--lm-input-box-shadow);
+
+  /* Primary button (light mode only) */
+
+  --lm-button-primary-bg-image: linear-gradient(var(--primary-color), var(--primary-color-dark));
+  --lm-button-primary-bg-image-hover: linear-gradient(var(--primary-color-light), var(--primary-color-dark));
+
+  /* Primary button (dark mode only) */
+
+  --dm-button-primary-bg-image: linear-gradient(var(--primary-color), var(--primary-color-dark));
+  --dm-button-primary-bg-image-hover: linear-gradient(var(--primary-color-light), var(--primary-color-dark));
+  
+  /* Slate top nav-bar color  */
+  --lm-navbar-bg-image: linear-gradient(#f7f7f7, #ced6e0);
+  
+  /* Grey sidebar color */
+  --lm-sidebar-bg-image: linear-gradient(#f7f7f7, #ced6e0);
+  
+}
+
+/* Local scope */
+/* 	~ This way, only the primary button's height and border width is affected.
+ 	~ Default button remains the same. */
+
+.btn-primary {
+  --button-height: 3.6rem;
+  --button-border-width: 0;
+}
