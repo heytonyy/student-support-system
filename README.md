@@ -18,8 +18,7 @@ This is a full stack Java Flask app that gives a school a communication system w
 ## Video Demo:
 (click on the image to watch the video on youtube)
 
-[![Watch the video](https://img.youtube.com/vi/GdWlzwk8B3w/maxresdefault.jpg)](https://youtu.be/GdWlzwk8B3w)
-
+[![Watch the video](https://img.youtube.com/vi/GYm628jiW0c/maxresdefault.jpg)](https://youtu.be/GYm628jiW0c)
 
 ## TODO:
 1. Host on AWS
